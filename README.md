@@ -13,3 +13,12 @@
 <p align="center">
 <img src="https://user-images.githubusercontent.com/97057793/185621407-140ce2ef-3eac-40fb-ac9c-c445ead8130e.gif" width = "600", height = "490" />
 </p>
+
+## Lecture 3:
+🧐: I create 2 files for Model and ViewModel, fill out MVVM architecture and transfer the logic by implementing the Model and ViewModel portions of the application while using both generics and functions as types along the way and rebuild the View. 
+
+## Lecture 4:
+🧐: I used the Optional construct in the Memorize Game as part of finishing off its game logic, created combinations of two pairs of cards, those that, if matched, disappear, if not, stay in View.
+<p align="center">
+<img src="https://user-images.githubusercontent.com/97057793/185748548-e3d85924-534a-4b12-911a-16c5d8de6cca.gif"  width = "600", height = "550" />
+</p>
