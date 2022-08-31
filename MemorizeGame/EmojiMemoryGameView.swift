@@ -32,6 +32,7 @@ struct CardView: View {
     
     let card: EmojiMemoryGame.Card
     let color = RadialGradient(gradient: Gradient(colors: [Color("CardColor"), Color("CardColor2")]), center: .center, startRadius: 20, endRadius: 100)
+    let color2 = RadialGradient(gradient: Gradient(colors: [Color("CardColor"), Color("Color-1")]), center: .center, startRadius: 10, endRadius: 100)
     
     var body: some View {
         GeometryReader { geometry in
@@ -40,6 +41,8 @@ struct CardView: View {
                 if card.isFaceUp {
                     shape.foregroundColor(.white)
                     shape.stroke(lineWidth: DrawingConstants.lineWidth).fill(color).shadow(color: .black.opacity(0.4), radius: DrawingConstants.radius)
+                    Pie(startAngle: Angle(degrees: 0-90), endAngle: Angle(degrees: 120-90)).fill(color2).opacity(0.7).shadow(color: .black.opacity(0.4), radius: 2)
+                        .padding(5)
                     Text(card.content)
                         .font(font(in: geometry.size))
                 } else if card.isMatched {

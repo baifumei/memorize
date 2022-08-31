@@ -14,6 +14,7 @@
 		E140BF3928AE5690006BACFA /* EmojiMemoryGameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E140BF3828AE5690006BACFA /* EmojiMemoryGameView.swift */; };
 		E140BF3B28AE5691006BACFA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E140BF3A28AE5691006BACFA /* Assets.xcassets */; };
 		E140BF3E28AE5691006BACFA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E140BF3D28AE5691006BACFA /* Preview Assets.xcassets */; };
+		E174932E28BF8064002CA125 /* Pie.swift in Sources */ = {isa = PBXBuildFile; fileRef = E174932D28BF8064002CA125 /* Pie.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +26,7 @@
 		E140BF3828AE5690006BACFA /* EmojiMemoryGameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiMemoryGameView.swift; sourceTree = "<group>"; };
 		E140BF3A28AE5691006BACFA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E140BF3D28AE5691006BACFA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E174932D28BF8064002CA125 /* Pie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pie.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 			children = (
 				E140BF3628AE5690006BACFA /* MemorizeGameApp.swift */,
 				E140BF3828AE5690006BACFA /* EmojiMemoryGameView.swift */,
+				E174932D28BF8064002CA125 /* Pie.swift */,
 				E12A618528B93DC800197E61 /* AspectVGrid.swift */,
 				E12A614D28AFC5B300197E61 /* MemoryGameModel.swift */,
 				E12A614F28AFC7C300197E61 /* EmojiMemoryGameVM.swift */,
@@ -146,6 +149,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E174932E28BF8064002CA125 /* Pie.swift in Sources */,
 				E12A615028AFC7C300197E61 /* EmojiMemoryGameVM.swift in Sources */,
 				E140BF3928AE5690006BACFA /* EmojiMemoryGameView.swift in Sources */,
 				E140BF3728AE5690006BACFA /* MemorizeGameApp.swift in Sources */,
