@@ -32,5 +32,5 @@
 ## Lecture 7-8:
 🧐: learned about ViewModifier, animation (implicit and explicit, animation structures, transitions, matched geometry effects, container view effects, Shape animation, ViewModifier animation...) 
 <p align="center">
-<img src="https://user-images.githubusercontent.com/195760655_664716659?hash=zcfssgkpBRbY7g681oTipnT5ODD0aNSSzxc9TUyhuZk&dl=EqSFX2y9LpVzOiFZZAZmg748ZhsiLqGcxaVHMIsZxSPю.gif" width = "600", height = "550" />
+<img src="https://github.com/baifumei/memorize/blob/c238944f82568e579ec51e2e718925ca59ecb208/ezgif.com-gif-maker-3.gif" width = "600", height = "550" />
 </p>
